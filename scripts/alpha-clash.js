@@ -1,7 +1,7 @@
 function handleKeyboardButtonPress(event){
     const playerPressed = event.key;
     
-    if(playerPressed == 'Escaped'){
+    if(playerPressed == 'Escape'){        
         gameOver();
     }
 
